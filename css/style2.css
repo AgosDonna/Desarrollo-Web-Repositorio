@@ -1,0 +1,617 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color:black;
+    background: rgb(240, 241, 243);
+    }
+
+.logo {
+    margin: 14px 0px 0px 50px;
+    }
+    
+.header {
+    color:black;
+    background-color:rgb(240, 241, 243);
+    display: flex;
+    top: 0;
+    height: 110px;
+    position: fixed;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+    padding-right: 80px;
+    z-index: 100;
+    }
+   
+.header__pestañas ul {
+    font-size: 20px; 
+    display: flex;  
+    } 
+
+.header__pestañas ul li {
+    margin: 45px 15px 20px 100px;
+    }
+
+.header ul li a:hover {
+    background: rgb(97, 171, 154);
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    }
+
+#home {
+    background-image: url(../css/ezgif.com-gif-maker.gif);
+    height: 910px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+    
+.titulo__principal {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 75px;
+    margin: 200px 00px 00px 200px;
+    padding-top: 100px;
+    width: 650px;
+    }   
+
+.aclaracion {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    color: black;
+    text-align: left;
+    font-weight: 450px;
+    margin-top: 30px;
+    margin-left: 200px;
+    font-size: 20px;
+    width: 550px;
+    }
+
+.redes-sociales {
+    margin: 0px 2000px 0px 1800px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+    height: 500px; 
+    background-color: transparent;
+    }
+
+.quereciclamos {
+    height: 300px;
+    background-color: rgb(224, 210, 78);
+    background-position: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    }
+
+.subtitular {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+    background-color: transparent;  
+    padding-top: 30px;         
+    }
+    
+.vectores {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    background-color: rgb(224, 210, 78);
+    }    
+
+
+.fondo-de-boxmodel {
+    background-color: rgb(240, 241, 243);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    }
+     
+.box-model {
+    border: 5px solid rgb(97, 171, 154);
+    border-radius: 20px;
+    padding: 50px 0px 40px 0px;
+    margin: 40px;
+    width: 700px;
+    text-align: center;
+    background-color: rgb(240, 241, 243);
+    }
+
+.titulares {
+    color:black;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    }
+
+
+.vector-ubicacion-reciclables {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    animation-name: identifier;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-delay: 0s;    
+    transition: all 3s;
+    }    
+
+.footer {
+    border-top: 3px solid rgb(97, 171, 154);
+    margin-top: 30px;
+    }
+    
+.introfooter {
+    color:grey;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    text-align: center;
+    height: 70px;
+    background-color: rgb(240, 241, 243);
+    padding-top: 15px;
+    }
+    
+.box-img {
+    height: 30px;
+    background-color: rgb(240, 241, 243);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 2px;
+    margin-bottom: 35px;
+    }    
+
+.infofooter {
+    height: 115px;
+    background-color: rgb(97, 171, 154);
+    display: flex;
+    }
+
+.logofooter {
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.datos {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    text-align: left;
+    font-weight: 400;
+    margin: 10px 0px 0px 30px;
+    font-size: 12px;
+    background-color: rgb(97, 171, 154);
+    }    
+
+.quienesomos {
+    background-color: rgb(240, 241, 243);
+    height: 700px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    text-align: left;     
+    }
+    
+.tituloquienesomos {
+    color: rgb(97, 171, 154);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 150px;
+    margin-left: 150px;   
+    padding: 40px;
+    font-size: 60px;    
+    }
+    
+.textquienesomos {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    text-align: left;
+    font-weight: 400; 
+    padding: 10px;
+    width: 800px;
+    margin-left: 250px;
+    font-size: 18px;
+    }    
+
+.fundadores {
+    display: flex; 
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    }
+
+.foto-de-perfil {
+    margin-left: 270px;
+    margin-top: 40px;    
+    }
+
+.nombre {
+    margin-top: 5px;
+    font-style: oblique;   
+    }
+
+.puesto {
+    margin-top: 5px;    
+    text-align: center;     
+    }   
+
+.mision-vision {
+    text-align: center;
+    font-size: 15px;
+    margin: 10px;
+   }
+
+.img-valores {
+    background-color: rgb(224, 210, 78);
+    height: 500px;  
+    }
+
+.accion {
+    display: flex;
+    flex-direction: column; 
+    }       
+
+.boton-verde {
+    border: 2px solid rgb(97, 171, 154);   
+    background-color:rgb(97, 171, 154);
+    border-radius: 15px;
+    margin: 45px 0px 0px 250px;
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    }    
+
+.boton-rojo {
+    border: 2px solid rgb(229, 142, 143);   
+    background-color:rgb(229, 142, 143);
+    border-radius: 15px;
+    margin: 45px 0px 0px 250px;
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    } 
+
+.boton-amarillo {
+    border: 2px solid rgb(224, 210, 78);   
+    background-color:rgb(224, 210, 78);
+    border-radius: 15px;
+    margin: 45px 0px 0px 250px;
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    }
+
+.datos-contacto {
+    border: 4px solid rgb(224, 210, 78);   
+    background-color: rgb(224, 210, 78); 
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 600px;
+    margin: 15px 15px 20px 200px;    
+    }
+
+.areas {
+    margin: 50px 20px 90px 40px;
+    background-color: transparent;   
+    }    
+
+.area-titulo {
+    font-size: 18px;
+    font-weight: 700;
+    background-color: transparent;
+    text-decoration-line: overline ; 
+    }
+
+.area-datos {
+    font-size: 14px;
+    font-weight: 400;
+    background-color: transparent; 
+    }
+
+.fondo-formulario {
+    height:600px;
+    width: 700%;    
+    background-color: rgb(97, 171, 154);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;    
+    margin: 15px 150px 150px 0px;
+    }
+
+.cuerpo-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;    
+    background-color: rgb(97, 171, 154);
+    width: 90%;
+    margin: auto;
+    }
+
+.titulo-formulario {
+    background-color: rgb(97, 171, 154);
+    padding-top: 15px;
+    font-size: 15px;
+    }    
+
+.text-area {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2px solid;
+    height: 200px;
+    }
+
+.cuerpo-formulario input {
+    border: 2px solid black;
+    height: 40px;
+    border-radius: 5px;
+    }    
+
+.boton-formulario {
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 5px;
+    }
+
+.cuerpo-contacto {
+    display: flex;
+    }
+
+.tabla {
+    margin-left: 250px;
+    border: 3px solid rgb(97, 171, 154);
+    border-radius: 15px;
+    width: 70%;
+    border-collapse: collapse;
+    }    
+
+.table tr th {
+    text-align: center;
+    }
+
+.descripcion-tabla {
+    text-align: center;
+    }
+
+.botones-quehacemos {
+    color: black;
+    text-align: left;       
+    margin-left: 200px;
+    font-size: 25px;   
+    }
+
+.grid-padre {
+    padding: 50px 140px 100px 150px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 3fr;
+    grid-template-rows: 3fr 3fr;
+    grid-gap: 15px;
+    }
+
+.imagen-grid {
+    width: 319px;
+    height: 317px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    }   
+
+.titulo-grid {
+    font-size: 22px;
+    margin-top: 20px;
+    color:black;
+    background-color: transparent;
+    padding: 10px;
+    text-decoration: underline black;
+    } 
+
+.texto-grid {
+    margin-top: 10px;
+    font-size: 15px;
+    font-style: italic;  
+    background-color: transparent;
+    padding: 10px;  
+    }
+    
+.bloque2 {
+    border: 3px solid rgb(97, 171, 154);
+    background-color: rgb(97, 171, 154);    
+    padding-left: 15px;
+    padding-top: 60px;
+    height: 317px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    }
+
+.bloque4 {
+    border: 3px solid rgb(224, 210, 78);
+    background-color: rgb(224, 210, 78);
+    padding-left: 15px;
+    padding-top: 60px;
+    height: 317px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    }
+
+.zona-grid {
+    height: 1500px;   
+    }
+
+.grid-padre2 {
+    background-image: linear-gradient(to right top, #61ab9a, #6bba8f, #87c67b, #afce63, #e0d24e);
+    border-radius: 40px;
+    height: 1000px;
+    padding-top: 2%;
+    margin-left: 190px;
+    margin-right: 190px;
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-template-rows: repeat(4, 10%);
+    grid-gap: 15% 0.2%;    
+    justify-content: center;
+    }
+
+.bloque1-1 {
+    width: 75%;
+    height: 200%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    border: 4px solid rgb(240, 241, 243);
+    }
+
+.bloque1-2 {
+    width: 75%;
+    height: 200%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    border: 4px solid rgb(240, 241, 243);
+    }
+
+.imagen-grid2 {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px; 
+    }
+
+.imagen-grid2 {
+    width: 70%;
+    height: 90%;
+    transition: height 1s, width 1s;
+    }
+
+.imagen-grid2:hover {
+    height: 140px; 
+    width: 100px;
+    }
+    
+.bloque1-1 {
+    width: 75%;
+    height: 200%;
+    transition: height 1s, width 1s;
+    }
+
+.bloque1-1:hover {
+    border: 4px solid rgb(97, 171, 154)
+    }  
+
+.bloque1-2 {
+    width: 75%;
+    height: 200%;
+    transition: height 1s, width 1s;
+    }
+
+.bloque1-2:hover {
+    border: 4px solid rgb(229, 142, 143);
+    background-color: rgb;
+    }  
+
+
+@keyframes identifier {
+    100% {
+        transform:rotate(-10deg);
+      }
+      25% {
+        transform:rotate(10deg);
+      }
+      
+    }
+  
+.residuos-reciclados {
+    height: 550px;
+    text-align: center;
+    border: 5px solid rgb(224, 210, 78);
+    border-radius: 20px;
+    margin: 50px 340px 50px 340px;
+    }    
+
+.titulo-años {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: black;
+    }
+
+.toneladas {
+    color: black;
+    padding-bottom: 5px;
+    }
+
+
+#contador-reciclaje div{
+    background-image: linear-gradient(to top, #e0d24e, #afce63, #87c67b, #6bba8f, #61ab9a);
+    border-radius: 20px;    
+    display: inline-block;
+    vertical-align: top;    
+    height: 100px;
+    width: 250px;
+    }
+
+
+#contador1 {
+    transition: all ease 1s;       
+    }
+
+#contador2 {
+    transition: all ease 1s;    
+    }
+
+#contador3 {
+    transition: all ease 1s;
+    }
+
+#contador4 {
+    transition: all ease 1s;
+    }
+
+#contador1:hover  {
+    height: 190px;
+    }
+
+#contador2:hover  {
+    height: 200px;
+    }
+
+#contador3:hover  {
+    height: 250px;
+    }
+
+#contador4:hover  {
+    height: 370px;
+    }
+
